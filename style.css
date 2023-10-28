@@ -1,0 +1,629 @@
+/*
+    Author Name:		Naieemur Rahman
+    Author Profile:		https://themeforest.net/user/naieemur
+	Author's e-mail:	naieemur@gmail.com
+    Version:			1.0
+*/
+
+
+
+
+
+/*---
+* 1. Default Css
+*=============================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	font-weight: 400;
+    line-height: 25px;
+}
+html,body{
+	height: 100%;
+}
+h2 {
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.nr-content-block {
+    padding: 85px 0;
+}
+a.nr-btn {
+	background: #3399FF none repeat scroll 0 0;
+	border: 1px solid #3399FF;
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	padding: 6px 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.35s ease 0s;
+}
+.nr-btn:hover {
+    background: #2F3742;
+    border: 1px solid #2F3742;
+    color: #fff;
+}
+a.nr-btn-o {
+	border: 1px solid #3399FF;
+	color: #3399FF;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	padding: 6px 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.35s ease 0s;
+}
+.nr-btn-o:hover {
+    background: #2F3742;
+    border: 1px solid #2F3742;
+    color: #fff;
+}
+
+
+.nr-section-title-left h2 {
+    color: #444;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 0 55px;
+    position: relative;
+    text-transform: uppercase;
+}
+.nr-section-title-left h2::before {
+    background: #ccc none repeat scroll 0 0;
+    bottom: -15px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+
+.nr-section-title-centre {
+	text-align: center;
+}
+.nr-section-title-centre h2 {
+    color: #444;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 0 55px;
+    position: relative;
+    text-transform: uppercase;
+}
+.nr-section-title-centre h2::before {
+	background: #ccc none repeat scroll 0 0;
+	bottom: -15px;
+	content: "";
+	height: 3px;
+	left: 50%;
+	margin-left: -15px;
+	position: absolute;
+	width: 30px;
+}
+.section-gray {
+    background-color: #f4f4f4;
+}
+.padding-L50{
+	padding-left: 50px;
+}
+
+
+/*---
+* 2. Backgrounds Css
+*=============================*/
+.slider-bg {
+    background-image: url(assets/img/slider-bg-1.jpg)
+}
+.author-photo {
+    background-image: url(assets/img/about-bg.jpg)
+}
+.footer-bg {
+    background-image: url(assets/img/footer-bg-1.jpg)
+}
+
+
+
+.hero-area {
+	height: 100%;
+}
+
+.header-area {
+	width: 100%;
+	z-index: 9;
+	background: #f8f8f8 none repeat scroll 0 0;
+	box-shadow: 0 5px 5px -5px #000;	
+}
+
+
+
+
+/*---
+* 3. Main menu area Css
+*=============================*/
+.mainmenu-area {
+    z-index: 999;
+    width: 100%;
+}
+.is-sticky .mainmenu-area {
+    background: #f8f8f8 none repeat scroll 0 0;
+    box-shadow: 0 5px 5px -5px #000;
+}
+
+.mainmenu-area .navbar-header .navbar-brand {
+	margin: 7px 0;
+	padding: 5px 15px;
+}
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 45px;
+}
+.mainmenu-area ul.nav.navbar-nav li a {
+    color: #222;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 22px 0;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .35s;
+}
+.logo img {
+    width: 80%;
+}
+.mainmenu-area ul.nav.navbar-nav li a:hover, .mainmenu-area ul.nav.navbar-nav li a:focus {
+    color: #3a7cec;
+    background: none;
+}
+.mainmenu-area ul.nav.navbar-nav li.active a {
+    color: #3a7cec;
+}
+
+
+
+/*---
+* 4. Slider area Css
+*=============================*/
+.slider-area {
+	background-color: #ddd;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.slider-overly {
+	background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+	height: 100%;
+}
+.slider-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slider-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slider-area p {
+    color: #fff;
+    font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.slider-area h1 {
+	border-bottom: 3px solid #ccc;
+	border-top: 3px solid #ccc;
+	color: #fff;
+	display: inline-block;
+	font-size: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	letter-spacing: 15px;
+	margin: 0;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+}
+.slider-area h2 {
+	color: #ddd;
+	font-family: "Open Sans",sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin: 30px 0;
+	text-transform: uppercase;
+}
+a.hero-btn {
+	border: 1px solid #ddd;
+	color: #ddd;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	margin: 0 8px;
+	padding: 7px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .35s;
+}
+a.hero-btn:hover {
+	background: #3399FF;
+	border: 1px solid #3399FF;
+}
+
+
+.scroll-down-icon {
+    bottom: 50px;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+}
+.scroll-down-icon a i.fa {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.35s ease 0s;
+    width: 20px;
+}
+.scroll-down-icon a i.fa:hover {
+    color: #3399ff;
+}
+
+
+
+/*---
+* 4. About area Css
+*=============================*/
+.about-photo img {
+    width: 100%;
+}
+.about-info p {
+	border-bottom: 1px dashed #ddd;
+	color: #666;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+}
+.about-info p span {
+    color: #3399FF;
+    font-weight: 600;
+}
+.about-bio {
+	color: #666;
+	margin-top: 15px;
+	padding-right: 10px;
+}
+.about-bio p i.fa {
+    color: #3399ff;
+}
+.about-btn {
+    margin-top: 25px;
+}
+.about-btn .nr-btn {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+/*---
+* 6. Skill area Css
+*=============================*/
+.single-skill {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.single-skill .progress {
+    background: #ccc none repeat scroll 0 0;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    height: 10px;
+    overflow: visible;
+    position: relative;
+}
+.skill-value {
+    color: #666;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+.single-skill p {
+    margin: 0 0 3px;
+}
+.single-skill .progress-bar {
+	background: #3399FF none repeat scroll 0 0;
+}
+
+
+
+
+/*---
+* 7. Service area Css
+*=============================*/
+.service-area {
+    padding: 85px 0 55px;
+}
+.single-service {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	padding: 30px 15px;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+}
+.single-service i.fa {
+    color: #555;
+    font-size: 40px;
+    transition: .35s;
+}
+.single-service h3 {
+    margin: 15px 0 10px;
+    text-transform: capitalize;
+}
+.single-service p {
+    color: #777;
+    line-height: 24px;
+    margin: 0;
+    font-size: 14px;
+}
+.single-service:hover {
+    box-shadow: 0px 6px 6px #ddd;
+}
+.single-service:hover.single-service i.fa{
+    color: #3399FF;
+}
+
+
+/*---
+* 8. Portfolio area Css
+*=============================*/
+.portfolio-menu {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.portfolio-menu button {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 1px solid #3399FF;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	margin: 0 5px;
+	outline: medium none;
+	padding: 5px 15px;
+	position: relative;
+	text-transform: uppercase;
+	transition: .35s;
+}
+.portfolio-menu button.active {
+    color: #fff;
+	background: #3399ff;
+}
+.portfolio-menu button:hover {
+	background: #2176cb;
+	border: 1px solid #2176cb;
+	color: #fff;
+}
+.grid-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.single-portfolio {
+	box-shadow: 0 0 6px 1px #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.single-portfolio img {
+    width: 100%;
+    transition: .45s;
+}
+
+.sin-portfolio-overlay {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: .35s;
+}
+.sin-portfolio-icon {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    width: 100%;
+    transition: .35s;
+}
+.sin-portfolio-icon a i.fa {
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 3px;
+	transition: all 0.35s ease 0s;
+	width: 30px;
+}
+.sin-portfolio-icon a:hover i.fa {
+    color: #fff;
+    background-color: #3A7CEC;
+    border: 1px solid #3A7CEC;
+}
+.sin-portfolio-title {
+    top: 10%;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transition: .35s;
+}
+.sin-portfolio-title h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 2px;
+    text-transform: uppercase;
+}
+.sin-portfolio-title p {
+    color: #bbb;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.single-portfolio:hover .sin-portfolio-overlay {
+    opacity: .75;
+}
+.single-portfolio:hover .sin-portfolio-icon {
+    opacity: 1;
+    bottom: 30%;
+}
+.single-portfolio:hover .sin-portfolio-title {
+    opacity: 1;
+    top: 30%;
+}
+.portfolio-btn {
+    margin-top: 35px;
+    text-align: center;
+}
+.portfolio-btn a.nr-btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #3a7cec;
+    color: #3a7cec;
+}
+.portfolio-btn a.nr-btn:hover {
+    background: #444 none repeat scroll 0 0;
+    border: 2px solid #444;
+    color:#fff;
+}
+
+
+
+
+
+
+/*---
+* 9. footer top area Css
+*=============================*/
+.footer-top-area {
+	background-color: #f5f5f5;
+	color: #555;
+}
+.footer-bs {
+	background-color: #fff;
+	box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+	padding: 40px 30px;
+}
+.single-contact-block {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    position: relative;
+    transition: .35s;
+}
+.single-contact-block p {
+    margin: 0;
+}
+.single-contact-block i.fa {
+    color: #666;
+    font-size: 30px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+	transition: .35s;
+}
+.single-contact-block:hover i.fa{
+	color:#3399FF;
+}
+.single-contact-block i.fa.fa-skype, .single-contact-block i.fa.fa-phone {
+    top: 0;
+}
+.contact-social i.fa {
+	background-color: #3399FF;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	height: 26px;
+	line-height: 26px;
+	margin-right: 10px;
+	margin-top: 25px;
+	text-align: center;
+	transition: all 0.35s ease 0s;
+	width: 26px;
+}
+.contact-social i.fa:hover {
+    background: #444 none repeat scroll 0 0;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+	background: #f5f5f5 none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 7px 7px 7px 10px;
+	width: 100%;
+}
+.contact-form textarea {
+    height: 132px;
+}
+.contact-form input[type="submit"] {
+	background-color: #3399ff;
+	border: medium none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	transition: all 0.35s ease 0s;
+}
+.contact-form input[type="submit"] {
+    border-bottom: 3px solid #154493;
+    border-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #444;
+    border-bottom: 3px solid #222;
+}
+
+
+/*---
+* 10. Footer copyright area Css
+*=============================*/
+.footer-copyright-area {
+    background-color: #090909;
+    color: #bbb;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.footer-copyright-area a {
+    color: #3a7cec;
+    font-weight: 500;
+    text-decoration: none;
+}

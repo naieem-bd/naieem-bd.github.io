@@ -1,0 +1,261 @@
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 30px;
+}
+
+.single-service {
+    height: 290px;
+}
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+.nr-content-block {
+    padding: 60px 0;
+}
+	
+    
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 25px;
+}
+.mainmenu-area ul.nav.navbar-nav li a {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.about-photo img {
+    width: 90%;
+}
+   
+
+.single-skill {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-bio {
+    margin-bottom: 60px;
+}
+.padding-L50 {
+    padding-left: 15px;
+}
+.single-skill {
+    padding-left: 0;
+    padding-right: 0;
+}
+.single-service {
+    height: 265px;
+}
+
+.portfolio-menu button {
+    margin-right: 10px;
+    padding-left: 20px;
+}    
+
+.footer-bs.contact-info {
+    margin-bottom: 30px;
+}
+
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+body {
+    font-size: 14px;
+    line-height: 25px;
+}
+.neon-content-block {
+    padding: 70px 0;
+}
+.neon-section-title {
+    margin-bottom: 75px;
+}
+
+.slider-area p {
+    font-size: 14px;
+}
+.slider-area h1 {
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    font-size: 32px;
+}
+.slider-area h2 {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 20px 0;
+}
+a.hero-btn {
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 4px 20px;
+}
+.scroll-down-icon {
+    bottom: 25px;
+}
+
+
+.mainmenu-area .navbar-header .navbar-brand {
+    margin-left: 15px;
+}
+.mainmenu-area .navbar-header .navbar-toggle {
+	background: #3a7cec none repeat scroll 0 0;
+	margin: 0;
+	padding: 7px;
+	right: 15px;
+	top: 17px;
+}
+.mainmenu-area .navbar-header .navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+}
+.mainmenu-area .navbar-collapse {
+    border-top: 1px solid #ddd;
+}
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mainmenu-area ul.nav.navbar-nav li a {
+	font-size: 12px;
+	padding: 12px 0;
+	text-align: center;
+}
+.slider-area {
+    text-align: center;
+}
+
+.slider-area h1 {
+    font-size: 40px;
+}
+.neon-btn.slider-btn-1 {
+    margin: 0 10px 20px;
+}
+.neon-btn.slider-btn-2 {
+    margin: 0 10px;
+}
+
+
+.about-photo img {
+    margin-bottom: 10px;
+    width: 200px;
+}
+.nr-content-block {
+    padding: 50px 0;
+}
+.nr-section-title-left h2 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.nr-section-title-left h2::before {
+    left: 50%;
+    margin-left: -15px;
+}
+.about-photo {
+    text-align: center;
+}
+.about-info p {
+    font-size: 13px;
+}
+.about-bio p {
+    font-size: 13px;
+}
+.about-btn {
+    text-align: center;
+}
+a.nr-btn {
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+}
+a.nr-btn-o {
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.about-bio {
+    margin-bottom: 50px;
+}
+
+.padding-L50 {
+    padding-left: 15px;
+}
+.single-skill {
+    font-size: 13px;
+}
+.skill-value {
+    font-size: 13px;
+}
+.single-service h3 {
+    font-size: 16px;
+}
+.single-service p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.nr-section-title-centre h2 {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.portfolio-menu button {
+    font-size: 11px;
+    margin: 5px;
+    padding: 4px 10px;
+}
+
+.single-contact-block p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.single-contact-block {
+    padding-left: 35px;
+}
+.single-contact-block i.fa {
+    font-size: 25px;
+}
+.footer-bs {
+    padding: 20px;
+}
+.contact-social {
+    text-align: center;
+}
+.footer-bs.contact-info {
+    margin-bottom: 30px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    font-size: 13px;
+}
+.contact-form input[type="submit"] {
+    font-size: 12px;
+    padding: 7px 20px;
+}
+.contact-form {
+    text-align: center;
+}
+.footer-copyright-area {
+    font-size: 12px;
+}
+
+
+
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .container, .container-fluid {
+        width: 450px;
+        margin: 0 auto;
+    }    
+    
+}
