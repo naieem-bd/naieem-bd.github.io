@@ -224,7 +224,7 @@ a.nr-btn-o {
 
 .slider-area p {
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin: 0;
@@ -243,16 +243,19 @@ a.nr-btn-o {
     position: relative;
     display: inline-block;
 }
-
 .hero-tag {
     position: absolute;
     right: 0;
     top: -15px;
 }
-
 .hero-tag span {
     color: #3399FF;
     font-weight: 700;
+}
+.hero-tag span.exp {
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
 }
 .slider-area h2 {
 	color: #ddd;
