@@ -371,26 +371,12 @@ a.hero-btn:hover {
 *=============================*/
 .single-skill {
     color: #666;
-    margin-bottom: 30px;
-    font-size: 14px;
-}
-.single-skill .progress {
-    background: #ccc none repeat scroll 0 0;
-    border-radius: 0;
-    box-shadow: 0 0 0;
-    height: 10px;
-    overflow: visible;
-    position: relative;
-}
-.skill-value {
-    color: #666;
-    font-size: 14px;
-    position: absolute;
-    right: 0;
-    top: -25px;
+    margin-bottom: 15px;
 }
 .single-skill p {
-    margin: 0 0 3px;
+    margin: 0;
+    font-weight: 600;
+    color: #444;
 }
 .single-skill .progress-bar {
 	background: #3399FF none repeat scroll 0 0;
