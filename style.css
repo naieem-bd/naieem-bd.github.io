@@ -329,13 +329,30 @@ a.hero-btn:hover {
     color: #3399FF;
     font-weight: 600;
 }
+.about-info p a {
+    color: #666;
+}
+.about-info p a:hover {
+    color: #3399FF;
+    text-decoration: none;
+}
 .about-bio {
 	color: #666;
 	margin-top: 15px;
 	padding-right: 10px;
 }
-.about-bio p i.fa {
+.about-bio i.fa {
     color: #3399ff;
+}
+.sgl-about-bio {
+    display: flex;
+    gap: 10px;
+}
+.sgl-about-bio i.fa {
+    padding-top: 5px;
+}
+.about-info .contact-social i.fa {
+    margin-top: 5px;
 }
 .about-btn {
     margin-top: 25px;
