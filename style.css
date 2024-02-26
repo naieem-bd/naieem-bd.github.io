@@ -318,6 +318,9 @@ a.hero-btn:hover {
 *=============================*/
 .about-photo img {
     width: 100%;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 6px 1px #ccc
 }
 .about-info p {
 	border-bottom: 1px dashed #ddd;
