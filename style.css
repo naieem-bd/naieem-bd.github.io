@@ -12,7 +12,7 @@
 /*---
 * 1. Default Css
 *=============================*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,500,600,700,800');
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -563,50 +563,68 @@ a.hero-btn:hover {
 	background-color: #f5f5f5;
 	color: #555;
 }
-.footer-bs {
-	background-color: #fff;
-	box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
-	padding: 40px 30px;
-}
 .single-contact-block {
-    border-bottom: 1px dashed #ccc;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    padding-left: 55px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 45px 15px 30px;
+    text-align: center;
     position: relative;
+    transition: .35s;
+}
+.single-contact-block i {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #555;
+    color: #fff;
+    border-radius: 50%;
     transition: .35s;
 }
 .single-contact-block p {
     margin: 0;
+    color: #3399FF;
+    font-weight: 500;
 }
-.single-contact-block i.fa {
-    color: #666;
-    font-size: 30px;
-    left: 0;
-    position: absolute;
-    top: 8px;
-	transition: .35s;
+.single-contact-block p a {
+    color: #3399FF;
+    text-decoration: none;
 }
-.single-contact-block:hover i.fa{
+.single-contact-block:hover{
+    box-shadow: 0px 6px 6px #ddd;
+}
+.single-contact-block:hover i{
+    background: #3399FF;
+}
+.single-contact-block:hover p{
+    color: #555;
+}
+.single-contact-block:hover p a{
+    color: #555;
+}
+.contact-info:hover i.fa{
 	color:#3399FF;
 }
-.single-contact-block i.fa.fa-skype, .single-contact-block i.fa.fa-phone {
-    top: 0;
-}
-.contact-social i.fa {
+.contact-social i {
 	background-color: #3399FF;
 	border-radius: 3px;
 	color: #fff;
 	font-size: 14px;
 	height: 26px;
 	line-height: 26px;
-	margin-right: 10px;
-	margin-top: 25px;
+	margin: 0 5px;
+	margin-top: 7px;
 	text-align: center;
 	transition: all 0.35s ease 0s;
 	width: 26px;
 }
-.contact-social i.fa:hover {
+.contact-social i:hover {
     background: #444 none repeat scroll 0 0;
 }
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
