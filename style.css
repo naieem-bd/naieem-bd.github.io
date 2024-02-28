@@ -102,7 +102,7 @@ a.nr-btn-o {
     color: #444;
     font-size: 22px;
     font-weight: 800;
-    margin: 0 0 55px;
+    margin: 0 0 65px;
     position: relative;
     text-transform: uppercase;
 }
@@ -564,49 +564,21 @@ a.hero-btn:hover {
 	color: #555;
 }
 .single-contact-block {
-    background: #fff;
-    border: 1px solid #ddd;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    padding: 45px 15px 30px;
     text-align: center;
-    position: relative;
-    transition: .35s;
+    margin-bottom: 30px;
 }
 .single-contact-block i {
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    margin-left: -20px;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background: #555;
-    color: #fff;
-    border-radius: 50%;
-    transition: .35s;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #3399FF;
 }
 .single-contact-block p {
+    color: #555;
     margin: 0;
-    color: #3399FF;
-    font-weight: 500;
 }
 .single-contact-block p a {
-    color: #3399FF;
+    color: #555;
     text-decoration: none;
-}
-.single-contact-block:hover{
-    box-shadow: 0px 6px 6px #ddd;
-}
-.single-contact-block:hover i{
-    background: #3399FF;
-}
-.single-contact-block:hover p{
-    color: #555;
-}
-.single-contact-block:hover p a{
-    color: #555;
 }
 .contact-info:hover i.fa{
 	color:#3399FF;
@@ -627,6 +599,54 @@ a.hero-btn:hover {
 .contact-social i:hover {
     background: #444 none repeat scroll 0 0;
 }
+.footer-social {
+    border-top: 1px solid #e5e5e5;
+}
+.footer-social a {
+    display: inline-block;
+    background: #777;
+    color: #fff;
+    padding: 5px 15px;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 30px;
+    min-width: 112px;
+}
+.footer-social a i {
+    margin-right: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.footer-social a.linkedin {
+    background: #0A66C2;
+}
+.footer-social a.github {
+    background: #181717;
+}
+.footer-social a.twitter {
+    background: #000000;
+}
+.footer-social a.facebook {
+    background: #0866FF;
+}
+
+.footer-social a:hover.linkedin {
+    background: #084C91;
+}
+.footer-social a:hover.github {
+    background: #333;
+}
+.footer-social a:hover.twitter {
+    background: #222;
+}
+.footer-social a:hover.facebook {
+    background: #0051D4;
+}
+
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
 	background: #f5f5f5 none repeat scroll 0 0;
 	border: 1px solid #ddd;
