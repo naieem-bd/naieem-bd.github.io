@@ -220,6 +220,29 @@ a.nr-btn-o {
 .footer-copyright-area {
     font-size: 12px;
 }
+.hero-skills {
+    margin-bottom: 35px;
+}
+.single-experience {
+    padding-left: 20px;
+}
+.single-experience h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
+.single-experience p {
+    font-size: 13px;
+}
+.opensource-row > div {
+    width: 100%;
+}
+.single-opensource h3 {
+    font-size: 16px;
+}
+.single-opensource p {
+    font-size: 13px;
+    line-height: 22px;
+}
 
 }
 
