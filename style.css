@@ -399,6 +399,7 @@ a.hero-btn:hover {
 	padding: 30px 15px;
 	text-align: center;
 	transition: all 0.5s ease 0s;
+    min-height: 275px;
 }
 .single-service i {
     color: #555;
@@ -690,4 +691,106 @@ a.hero-btn:hover {
     color: #3a7cec;
     font-weight: 500;
     text-decoration: none;
+}
+
+
+/*---
+* 11. Experience area Css
+*=============================*/
+.experience-timeline {
+    border-left: 2px solid #ddd;
+    margin-left: 7px;
+}
+.single-experience {
+    color: #666;
+    padding: 0 0 35px 28px;
+    position: relative;
+}
+.single-experience:last-child {
+    padding-bottom: 0;
+}
+.single-experience::before {
+    background: #f4f4f4;
+    border: 2px solid #3399FF;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: -8px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+}
+.single-experience h3 {
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.experience-meta {
+    margin-bottom: 12px;
+}
+.experience-meta span, .experience-meta a {
+    color: #3399FF;
+    font-weight: 600;
+}
+.experience-meta a:hover {
+    color: #2F3742;
+    text-decoration: none;
+}
+.single-experience .sgl-about-bio p {
+    margin-bottom: 5px;
+}
+.experience-stack {
+    font-size: 13px;
+    margin: 8px 0 0;
+}
+.experience-stack span {
+    color: #444;
+    font-weight: 600;
+}
+
+
+/*---
+* 12. Open source area Css
+*=============================*/
+.opensource-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.opensource-row::before, .opensource-row::after {
+    display: none;
+}
+.opensource-row > div {
+    display: flex;
+    margin-bottom: 30px;
+}
+.single-opensource {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.single-opensource:hover {
+    box-shadow: 0px 6px 6px #ddd;
+}
+.single-opensource h3 {
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.single-opensource p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+.single-opensource a {
+    color: #3399FF;
+    font-weight: 600;
+    margin-top: auto;
+    text-decoration: none;
+    transition: .35s;
+}
+.single-opensource a:hover {
+    color: #2F3742;
 }
