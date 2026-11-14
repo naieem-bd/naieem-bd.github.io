@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naieem-bd.github.io/sitemap.xml

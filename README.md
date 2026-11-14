@@ -12,7 +12,8 @@ Personal portfolio of **Naieemur Rahman**, Senior Front-End Engineer (React, Nex
 | `neon/` | Neon landing page demo |
 | `siktop/` | Siktop social-dashboard UI demo (profile, posts, analytics, settings pages) |
 | `tagsbay/` | Tagsbay UI demo |
-| `Resume_of_Naieemur_Rahman*.pdf` / `.docx` | Downloadable resume |
+| `Resume_of_Naieemur_Rahman.pdf` | Downloadable resume |
+| `robots.txt`, `sitemap.xml` | Search-engine files |
 
 ## Running locally
 
